@@ -25,14 +25,8 @@ public class SpringSecuirtyConfig extends WebSecurityConfigurerAdapter{
 		auth.inMemoryAuthentication().withUser("user").password("password").roles("user");
 	}
 
-	/*@Override
-	private void addViewControllers(ViewControllerRegistry registry) {
+	
 
-		registry.addViewController("/login").setViewName("login");
-
-		registry.addViewController("/").setViewName("person");
-
-		registry.addViewController("/home").setViewName("person");
-	}*/
-
+	
+	
 }
